@@ -585,7 +585,7 @@ section {
     width: 100%;
     padding: 130px 0;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
 }
 
@@ -1107,9 +1107,8 @@ aside {
     max-width: 90%;
 }
 .hallCard img {
-    width: 350px;
+    width:100%;
     height: auto;
-    max-width: 90%;
 
 }
 .hallCard h3,p {
@@ -1117,11 +1116,11 @@ aside {
     margin: 0;
 }
 .hallCard h3 {
-    font-size: 23px;
+    font-size: 20px;
 }
 .hallCard p {
     color: white;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 700;
 }
 .halls-container {
