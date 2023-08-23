@@ -1096,6 +1096,20 @@ aside {
     justify-content: space-around;
     column-gap: 50px;
 }
+.card  {
+    height: 250px;
+}
+.radial p {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
 .hallCard {
     display: flex;
     flex-direction: column;
@@ -1114,6 +1128,11 @@ aside {
 .hallCard h3,p {
     padding: 0;
     margin: 0;
+}
+@media(max-width : 400px) {
+    .notMobile {
+        display:  none !important;
+    }
 }
 .hallCard h3 {
     font-size: 20px;
