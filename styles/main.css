@@ -1125,7 +1125,7 @@ aside {
     font-weight: 700;
 }
 .halls-container {
-    padding: 50px 0px;
+    padding: 50px 10px !important;
 }
 .halls-container h2 {
     text-align: center;
